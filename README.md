@@ -1,2 +1,0 @@
-# Sortian
-Sort Algorithms Library
