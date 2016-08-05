@@ -1,0 +1,20 @@
+{
+  "name": "sortian",
+  "description": "Sort Algorithms Library",
+  "main": "index.js",
+  "authors": [
+    "Phantr4x<phantr4x@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Sort"
+  ],
+  "homepage": "https://github.com/Phantr4x/Sortian",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
