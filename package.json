@@ -1,25 +1,23 @@
 {
-  "name": "sortian",
+  "name": "Sortian",
   "version": "0.0.0",
-  "description": "Sort Algorithms Library",
-  "main": "index.js",
-  "scripts": {
-    "build": "webpack --mode=build",
-    "dev": "webpack --progress --colors --watch --mode=dev",
-    "test": "mocha --compilers js:babel-core/register --colors -w ./test/*.spec.js"
-  },
+  "main": "dist/Sortian.min.js",
+  "description": "A Sort Algorithms Utils Library",
   "repository": {
     "type": "git",
-    "url": "git+https://Phantr4x@github.com/Phantr4x/Sortian.git"
+    "url": "git://github.com/Phantr4x/Sortian.git"
   },
-  "keywords": [
-    "Sort"
-  ],
+  "keywords": [],
   "author": "Phantr4x",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Phantr4x/Sortian/issues"
-  },
-  "homepage": "https://github.com/Phantr4x/Sortian#readme",
-  "devDependencies": {}
+  "readmeFilename": "README.md",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-uglify": "~0.2.4",
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-qunit": "~0.3.0"
+  }
 }
